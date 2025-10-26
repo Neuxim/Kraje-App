@@ -1,12 +1,12 @@
 [
   {
-    "name": "SCP Tura 30",
-    "description": "GG",
-    "url": "https://github.com/Neuxim/Kraje-App/releases/download/map-Testing/scp.tura.29.json"
-  },
-  {
     "name": "Great Kingdoms",
     "description": "Ancient Kingdoms fight over Europe",
     "url": "https://github.com/Neuxim/Kraje-App/releases/download/map-Testing/kingdom.turn.0.json"
+  },
+  {
+    "name": "SCP - ENDED",
+    "description": "GG",
+    "url": "https://github.com/Neuxim/Kraje-App/releases/download/map-Testing/scp.tura.29.json"
   }
 ]
