@@ -1,0 +1,24 @@
+# --- IGNORE EVERYTHING ---
+*
+
+# --- EXCEPTIONS (Files to Keep on Cloud) ---
+!saved_map.json
+!playermaps/
+!playermaps/**/*.json
+!.gitignore
+
+# (Optional: Keep encyclopedia if you want players to sync unit stats)
+!encyclopedia_data.json
+
+# --- EXPLICIT IGNORES (Just to be safe) ---
+*.py
+*.pyc
+*.exe
+*.spec
+*.bat
+assets/
+build/
+dist/
+__pycache__/
+user_login.json
+maps/
