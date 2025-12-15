@@ -3,8 +3,8 @@
 
 # --- EXCEPTIONS (Files to Keep on Cloud) ---
 !saved_map.json
-!version.json          <-- ADD THIS
-!maps_index.json       <-- ADD THIS
+!version.json        
+!maps_index.json     
 !playermaps/
 !playermaps/**/*.json
 !.gitignore
