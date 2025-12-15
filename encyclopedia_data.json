@@ -1,0 +1,2462 @@
+{
+    "Humans": {
+        "infantry": {
+            "name": "Infantry",
+            "asset": "assets/units/Human/infantry.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "0",
+                "sup": "1",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "Basic foot soldiers. Cheap, reliable, and effective in numbers.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    3,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    3,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "gunner": {
+            "name": "Gunner",
+            "asset": "assets/units/Human/gunner.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "0",
+                "sup": "1",
+                "spe": "1",
+                "cost": "1"
+            },
+            "desc": "Specialized in laying down heavy fire to suppress enemy positions.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    2,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    9,
+                    3,
+                    4
+                ],
+                [
+                    0,
+                    0,
+                    2,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "mech_light": {
+            "name": "Light Mech",
+            "asset": "assets/units/Human/Mech_Light.png",
+            "weight": 2,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "1",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "A fast, agile walker effective at flanking and hit-and-run tactics.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "mech": {
+            "name": "Mech",
+            "asset": "assets/units/Human/mech.png",
+            "weight": 4,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "0",
+                "sup": "1",
+                "spe": "2",
+                "cost": "2"
+            },
+            "desc": "A heavily armored combat walker, designed for frontline assaults.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "mech_artillery": {
+            "name": "Artillery Mech",
+            "asset": "assets/units/Human/Mech_Artillery.png",
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "2",
+                "sup": "2",
+                "spe": "2",
+                "cost": "3"
+            },
+            "desc": "A mobile fire support platform capable of long-range bombardment. Cannot be transported.",
+            "grid": [
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    4,
+                    2,
+                    2,
+                    2,
+                    4
+                ],
+                [
+                    4,
+                    2,
+                    9,
+                    2,
+                    4
+                ],
+                [
+                    4,
+                    2,
+                    2,
+                    2,
+                    4
+                ],
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ]
+            ]
+        },
+        "tank": {
+            "name": "Tank",
+            "asset": "assets/units/Human/Tank.png",
+            "weight": 4,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "1",
+                "sup": "1",
+                "spe": "2",
+                "cost": "2"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    3,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    3,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "artillery": {
+            "name": "Artillery",
+            "asset": "assets/units/Human/artillery.png",
+            "weight": 1.5,
+            "unit_class": "land",
+            "stats": {
+                "str": "0",
+                "arm": "0",
+                "sup": "1",
+                "spe": "2",
+                "cost": "1"
+            },
+            "desc": "Artillery piece, vulnerable but devastating at a distance.",
+            "grid": [
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ],
+                [
+                    4,
+                    2,
+                    2,
+                    2,
+                    4
+                ],
+                [
+                    4,
+                    2,
+                    9,
+                    2,
+                    4
+                ],
+                [
+                    4,
+                    2,
+                    2,
+                    2,
+                    4
+                ],
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ]
+            ]
+        },
+        "truck": {
+            "name": "Truck",
+            "asset": "assets/units/Human/truck.png",
+            "weight_capacity": 3,
+            "max_units": 3,
+            "unit_class": "land",
+            "stats": {
+                "str": "0",
+                "arm": "1",
+                "sup": "0",
+                "spe": "6",
+                "cost": "1"
+            },
+            "desc": "Lightly armored transport for rapidly deploying infantry, gunners and artillery units.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    9,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "battleship": {
+            "name": "Battleship",
+            "asset": "assets/units/Human/battleship.png",
+            "weight_capacity": 12,
+            "max_units": 2,
+            "unit_class": "naval",
+            "stats": {
+                "str": "2",
+                "arm": "1",
+                "sup": "2x1",
+                "spe": "2",
+                "cost": "3"
+            },
+            "desc": "The pinnacle of naval power, offering immense fire support. Capable of transporting up to 2 units.",
+            "grid": [
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ],
+                [
+                    4,
+                    3,
+                    3,
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    3,
+                    9,
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    3,
+                    3,
+                    3,
+                    4
+                ],
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ]
+            ]
+        },
+        "ship": {
+            "name": "Ship",
+            "asset": "assets/units/Human/ship.png",
+            "weight_capacity": 8,
+            "max_units": 1,
+            "unit_class": "naval",
+            "stats": {
+                "str": "1",
+                "arm": "0",
+                "sup": "1",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "A versatile naval transport, capable of carrying units.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "plane": {
+            "name": "Plane",
+            "asset": "assets/units/Human/plane.png",
+            "unit_class": "air",
+            "stats": {
+                "str": "0",
+                "arm": "0",
+                "sup": "2",
+                "spe": "6",
+                "cost": "2"
+            },
+            "desc": "Provides air superiority and Support to the battlefield. Cannot be transported.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    9,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "fryderyk": {
+            "name": "Fryderyk",
+            "asset": "assets/units/Human/Fryderyk.png",
+            "unit_class": "air",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "2x1",
+                "spe": "5",
+                "cost": "2"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    },
+    "G.O.C. (Ganzir)": {
+        "GOC_MEKH": {
+            "name": "Mekhane Followers",
+            "asset": "assets/units/GOC/GOC_MEKHANE.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "2",
+                "sup": "2x1",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "Devout followers of the Broken God, clad in blessed machinery.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "GOC_INF": {
+            "name": "G.O.C. Team",
+            "asset": "assets/units/GOC/GOC_Team.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "2",
+                "sup": "1",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "Highly trained operatives equipped with advanced para-weaponry.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    },
+    "SCP": {
+        "MTF": {
+            "name": "MTF",
+            "asset": "assets/units/SCP/mtf.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "0",
+                "sup": "1",
+                "spe": "4",
+                "cost": "1"
+            },
+            "desc": "Mobile Task Force: The Foundation's elite soldiers for containment.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "049": {
+            "name": "049",
+            "asset": "assets/units/SCP/SCP049.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "3",
+                "sup": "0",
+                "spe": "2",
+                "cost": "1"
+            },
+            "desc": "The 'Plague Doctor'. Converts fallen infantry into zombie allies.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "096": {
+            "name": "096",
+            "asset": "assets/units/SCP/SCP096.png",
+            "weight": 2,
+            "unit_class": "land",
+            "stats": {
+                "str": "3",
+                "arm": "3",
+                "sup": "0",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "The 'Shy Guy'. Docile until observed, then becomes an unstoppable engine of destruction.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "173": {
+            "name": "173",
+            "asset": "assets/units/SCP/SCP173.png",
+            "weight": 3,
+            "unit_class": "land",
+            "stats": {
+                "str": "3",
+                "arm": "3",
+                "sup": "0",
+                "spe": "6",
+                "cost": "1"
+            },
+            "desc": "The 'Sculpture'. Extremely fast and lethal, but only when unobserved.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "682": {
+            "name": "682",
+            "asset": "assets/units/SCP/SCP682.png",
+            "weight": 8,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "1",
+                "sup": "1",
+                "spe": "2",
+                "cost": "1"
+            },
+            "desc": "The 'Hard-to-Destroy Reptile'. Incredibly resilient and adaptive. Each time it's destroyed , it will reassemble itself and gains +1DEF.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "939": {
+            "name": "939",
+            "asset": "assets/units/SCP/SCP939.png",
+            "weight": 2,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "2",
+                "sup": "0",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "'With Many Voices'. Pack hunters that mimic human speech to lure prey.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "1048_a": {
+            "name": "1048-A",
+            "asset": "assets/units/SCP/SCP1048-1.png",
+            "weight": 0.5,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "2",
+                "sup": "4",
+                "spe": "2",
+                "cost": "1"
+            },
+            "desc": "The 'Builder Bear'.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "1048_b": {
+            "name": "1048-B",
+            "asset": "assets/units/SCP/SCP1048-2.png",
+            "weight": 0.5,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "2",
+                "sup": "2",
+                "spe": "4",
+                "cost": "1"
+            },
+            "desc": "A hostile duplicate of the 'Builder Bear', made of human ears.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "1048_c": {
+            "name": "1048-C",
+            "asset": "assets/units/SCP/SCP1048-3.png",
+            "weight": 1.5,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "4",
+                "sup": "2",
+                "spe": "2",
+                "cost": "1"
+            },
+            "desc": "A hostile duplicate of the 'Builder Bear', made of scrap metal.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "1048_d": {
+            "name": "1048-D",
+            "asset": "assets/units/SCP/SCP1048-4.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "4",
+                "arm": "2",
+                "sup": "2",
+                "spe": "2",
+                "cost": "1"
+            },
+            "desc": "A hostile duplicate of the 'Builder Bear', made of human limbs.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    },
+    "Flesh": {
+        "Flesh_INF": {
+            "name": "Hate",
+            "asset": "assets/units/Flesh/FleshINF.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "1",
+                "sup": "1",
+                "spe": "2",
+                "cost": "1"
+            },
+            "desc": "A twisted mass of flesh and hatred, forming a basic combat bio-form.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Flesh_ART": {
+            "name": "Despise",
+            "asset": "assets/units/Flesh/FleshART.png",
+            "weight": 1.5,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "0",
+                "sup": "1",
+                "spe": "1",
+                "cost": "1"
+            },
+            "desc": "A stationary bio-artillery that spews corrosive projectiles.",
+            "grid": [
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ],
+                [
+                    4,
+                    3,
+                    3,
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    3,
+                    9,
+                    3,
+                    4
+                ],
+                [
+                    4,
+                    3,
+                    3,
+                    3,
+                    4
+                ],
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ]
+            ]
+        },
+        "Flesh_MECH": {
+            "name": "Loathe",
+            "asset": "assets/units/Flesh/FleshMECH.png",
+            "weight": 4,
+            "unit_class": "land",
+            "stats": {
+                "str": "3",
+                "arm": "0",
+                "sup": "0",
+                "spe": "1",
+                "cost": "2"
+            },
+            "desc": "A large, durable creature that embodies loathing for all life.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Flesh_MASS": {
+            "name": "Abominate",
+            "asset": "assets/units/Flesh/FleshMASS.png",
+            "weight": 6,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "3",
+                "sup": "0",
+                "spe": "1",
+                "cost": "2"
+            },
+            "desc": "An enormous, slow-moving abomination that stops everything in its path.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Flesh_TYRANID": {
+            "name": "Execrate",
+            "asset": "assets/units/Flesh/FleshTYRANID.png",
+            "weight": 2,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "1",
+                "spe": "4",
+                "cost": "1"
+            },
+            "desc": "Fast and agile, pursuits it's enemies for long distances.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Flesh_CITY": {
+            "name": "Hell (c)",
+            "asset": "assets/units/Flesh/FleshCITY.png",
+            "unit_class": "land",
+            "stats": {
+                "str": "0",
+                "arm": "2",
+                "sup": "1",
+                "spe": "0",
+                "cost": "0"
+            },
+            "desc": "A living, growing Flesh citadel that spawns lesser bio-forms.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    9,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Flesh_VILLAGE": {
+            "name": "Abyss (v)",
+            "asset": "assets/units/Flesh/FleshVILLAGE.png",
+            "unit_class": "land",
+            "stats": {
+                "str": "0",
+                "arm": "1",
+                "sup": "0",
+                "spe": "0",
+                "cost": "0"
+            },
+            "desc": "A smaller Flesh hive that spreads corruption and generates resources.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    9,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    },
+    "Zombie": {
+        "Zombie_INF": {
+            "name": "Zombie",
+            "asset": "assets/units/Zombie/zombies.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "1",
+                "spe": "2",
+                "cost": "1"
+            },
+            "desc": "A shambling corpse. Weak alone, but terrifying in a horde.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Zombie_INFSMART": {
+            "name": "Smarts",
+            "asset": "assets/units/Zombie/zombiesSmart.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "1",
+                "spe": "1",
+                "cost": "1"
+            },
+            "desc": "A more intelligent zombie, capable of covering enemy troops into its own.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Zombie_MECH": {
+            "name": "Gigant",
+            "asset": "assets/units/Zombie/zombieGigant.png",
+            "weight": 5,
+            "unit_class": "land",
+            "stats": {
+                "str": "3",
+                "arm": "0",
+                "sup": "1",
+                "spe": "1",
+                "cost": "1"
+            },
+            "desc": "A bloated, gargantuan zombie that can smash through defenses.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Zombie_FLYING": {
+            "name": "Birds",
+            "asset": "assets/units/Zombie/zombieBirds.png",
+            "unit_class": "air",
+            "stats": {
+                "str": "1",
+                "arm": "0",
+                "sup": "1",
+                "spe": "4",
+                "cost": "1"
+            },
+            "desc": "A swarm of infected birds, excellent for scouting and harassing.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    9,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    2,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Zombie_SHIP": {
+            "name": "Whale",
+            "asset": "assets/units/Zombie/zombieWhale.png",
+            "weight_capacity": 8,
+            "max_units": 2,
+            "unit_class": "naval",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "1",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "A reanimated whale carcass, a formidable and horrifying naval unit.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Zombie_BATTLESHIP": {
+            "name": "Kraken",
+            "asset": "assets/units/Zombie/zombieKraken.png",
+            "weight_capacity": 12,
+            "max_units": 4,
+            "unit_class": "naval",
+            "stats": {
+                "str": "3",
+                "arm": "3",
+                "sup": "2x1",
+                "spe": "2",
+                "cost": "2"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "Zombie_Feature": {
+            "name": "Zombie Base",
+            "asset": "assets/units/Zombie/zombieBase.png",
+            "unit_class": "land",
+            "stats": {
+                "str": "0",
+                "arm": "1",
+                "sup": "1",
+                "spe": "0",
+                "cost": "0"
+            },
+            "desc": "A nest of undead corruption that continuously spawns new zombies.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    9,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    },
+    "Ancient": {
+        "ancient_transporter": {
+            "name": "Ox Baggage ",
+            "asset": "assets/units/Human/Ancient/transporter.png",
+            "weight_capacity": 3,
+            "max_units": 3,
+            "unit_class": "land",
+            "stats": {
+                "str": "0",
+                "arm": "1",
+                "sup": "0",
+                "spe": "5",
+                "cost": "1"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    9,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "ancient_warrior": {
+            "name": "Hoplite",
+            "asset": "assets/units/Human/Ancient/warrior.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "1",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    3,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    3,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "ancient_ranged": {
+            "name": "Slinger",
+            "asset": "assets/units/Human/Ancient/ranged.png",
+            "weight": 1,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "1",
+                "spe": "3",
+                "cost": "1"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    4,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    3,
+                    4,
+                    0
+                ],
+                [
+                    4,
+                    3,
+                    9,
+                    3,
+                    4
+                ],
+                [
+                    0,
+                    4,
+                    3,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    4,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "ancient_air": {
+            "name": "Gigant Eagle",
+            "asset": "assets/units/Human/Ancient/air.png",
+            "unit_class": "air",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "2",
+                "spe": "6",
+                "cost": "2"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "weight": "---"
+        },
+        "ancient_chariot": {
+            "name": "Chariot",
+            "asset": "assets/units/Human/Ancient/chariot.png",
+            "weight": 5,
+            "unit_class": "land",
+            "stats": {
+                "str": "2",
+                "arm": "2",
+                "sup": "1",
+                "spe": "2",
+                "cost": "2"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    2,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    9,
+                    3,
+                    3
+                ],
+                [
+                    0,
+                    4,
+                    2,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "ancient_elephant": {
+            "name": "War Elephant",
+            "asset": "assets/units/Human/Ancient/elephant.png",
+            "weight": 8,
+            "unit_class": "land",
+            "stats": {
+                "str": "3",
+                "arm": "3",
+                "sup": "2",
+                "spe": "3",
+                "cost": "2"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "ancient_catapult_v2": {
+            "name": "Early Catapult",
+            "asset": "assets/units/Human/Ancient/catapult.png",
+            "weight": 3,
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "3",
+                "spe": "1",
+                "cost": "2"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                [
+                    4,
+                    2,
+                    2,
+                    2,
+                    4
+                ],
+                [
+                    4,
+                    2,
+                    9,
+                    2,
+                    4
+                ],
+                [
+                    4,
+                    2,
+                    2,
+                    2,
+                    4
+                ],
+                [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ]
+            ]
+        },
+        "ancient_raft": {
+            "name": "Papirus Raft",
+            "asset": "assets/units/Human/Ancient/raft.png",
+            "weight_capacity": 8,
+            "max_units": 1,
+            "unit_class": "naval",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "1",
+                "spe": "2",
+                "cost": "1"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "ancient_ship": {
+            "name": "Brimere",
+            "asset": "assets/units/Human/Ancient/brimere.png",
+            "weight_capacity": 12,
+            "max_units": 2,
+            "unit_class": "naval",
+            "stats": {
+                "str": "3",
+                "arm": "3",
+                "sup": "2x1",
+                "spe": "2",
+                "cost": "3"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    3
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    4,
+                    4,
+                    0
+                ]
+            ]
+        },
+        "ancient_trade": {
+            "name": "Ancient Trader",
+            "asset": "assets/units/Human/Ancient/transporter.png",
+            "unit_class": "land",
+            "stats": {
+                "str": "1",
+                "arm": "1",
+                "sup": "1",
+                "spe": "1",
+                "cost": "0"
+            },
+            "desc": "No description available.",
+            "grid": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    9,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ]
+        }
+    }
+}
